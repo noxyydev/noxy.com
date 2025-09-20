@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="discord, profil, lynexd, gaming, developer">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet" />
+	<link rel="icon" href="public/icons/Profile.png" type="image/jpeg"/>
+	<link rel="stylesheet" href="styles/style.css" />
+	<link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet" crossorigin />
+	
+	<title> Noxy Marka </title>
+</head>
+
+<body oncontextmenu="return true;">
+
+	<div class="digital-clock-container">
+		<div class="digital-clock" id="clock"></div>
+		<div class="clock-label"> Noxy Marka </div>
+	  </div>
+	  
+	<div class="container">
+		<div class="profile-border box-color">
+			<div class="profile box-color">
+				<div class="banner">
+					<img loading="lazy" id="banner-image" src="public/icons/Banner.png" alt=" " />
+				</div>
+				<div class="main-header">
+					<div class="image">
+						<div class="avatar">
+							<img loading="lazy" class="box-color" id="avatar-image" alt=""
+				                        aria-hidden="true" src="public/icons/Profile.png"
+				                        />
+							<img loading="lazy" class="avatar-decoration" 
+                            src="https://cdn.jsdelivr.net/gh/itspi3141/discord-fake-avatar-decorations@main/public/mdecorations/angry.webp" 
+                            alt="" 
+                            />
+							<div class="status box-color tooltip">
+								<img id="status-image" src="public/status/dnd.svg" alt=" " />
+							</div>
+						</div>
+					</div>
+					<div class="badges box-color" id="badges">
+						<div class="badges-right">
+							<a class="tooltip" aria-label="HypeSquad Parlaklığı">
+								<img alt=" " src="public/badges/hypesquad-brilliance.svg" /></a>
+
+							<a class="tooltip" aria-label="Noxy Marka">
+								<img alt=" " src="public/badges/server-owner.svg" /></a>
+
+							<a class="tooltip" aria-label="Orbs.">
+								<img alt=" " src="public/badges/orbs.png" /></a>
+
+							<a class="tooltip" aria-label="Nitro Kullanıcısı.">
+								<img alt=" " src="public/badges/nitro.svg" /></a>
+
+							<a class="tooltip" aria-label="12 Aydır Bi Sike Yaramıyo.">
+								<img alt=" " src="public/badges/boost-12-month.svg" /></a>
+
+							<a class="tooltip" aria-label="Aktif Geliştirici.">
+								<img alt=" " src="public/badges/active-developer.svg" /></a>
+
+							<a class="tooltip" aria-label="Erken Doğrulanmış Bot Geliştiricisi.">
+								<img alt=" " src="public/badges/early-verified-bot-developer.svg" /></a>
+
+							<a class="tooltip" aria-label="Bir Görev Tamamlamış.">
+								<img alt=" " src="public/badges/complated a quest.png" /></a>
+							
+						</div>
+						<div class="badges-left"></div>
+					</div>
+				</div>
+				<div class="card box-color">
+					<div class="name-box">
+						<span class="display-name"> @noxyy.dev </span>
+						<button class="id username" id="textToCopy" aria-label="Panoya Kopyala."
+							onclick="copyToClipboard()"></button>
+						<span class="pronouns"></span>
+						<div class="custom-status">
+							<img id="custom-status-emoji" />
+							<p class="custom-status-text"></p>
+						</div>
+					</div>
+					<div class="body">
+						<div class="content">
+						  <div class="about-section">
+							<div class="title-body"> HAKKINDA </div>
+							  <p>
+								<img data-src="public/emo/Emoji2.gif" alt="Emoji" class="emoji" />
+								| <a href="https://vsc.bio/itznoxy" target="_blank">	   https://vsc.bio/itznoxy	 </a>
+							  </p>
+							  <p>
+								<img data-src="public/emo/Emoji3.gif" alt="Emoji" class="emoji" />
+								| <a href="https://discord.com/users/1413826380029755504" target="_blank"> https://discord.gg/noxy 	 </a>
+							  </p>
+							  <p>
+								<img data-src="public/emo/Emoji1.gif" alt="Emoji" class="emoji" />
+								| <a href="https://discord.gg/MucnKNsvYw" target="_blank"> https://discord.gg/neurix </a>
+							  </p>
+							</div>
+					  
+						  </div>
+						  <br />
+						<div class="title-body"> ROLLER </div>
+							<div class="roles-body">
+								<div class="rol rosepink">
+									<i class="fas fa-circle"></i>
+									<span>Full Stack Developer</span>
+								</div>
+								<div class="rol softpink">
+									<i class="fas fa-circle"></i>
+									<span>Bot / Web Developer</span>
+								</div>
+							</div>
+							<div class="divider social-divider"></div>
+							<BR/>
+							<div class="title-body"> BAĞLANTILAR </div>
+
+							<div class="socials">
+								<!-- iletişim kısmı -->
+								<div class="column">
+									<a class="platform" href="https://www.youtube.com/@n0xyq1" rel="noreferrer noopener" target="_blank">
+									<img class="platform-icon" alt=" " aria-hidden="true" src="public/platforms/youtube.svg" />
+									<div class="text-base platform-username"> n0xyq1
+									</div>
+									<div>
+									<img alt=" " id="link" aria-hidden="true" src="public/icons/link.svg" class="connect" />
+									</div>
+									</a>
+									<a class="platform" href="https://open.spotify.com/user/31uwe2fxuv3radc32aqvxvhhcmw4" rel="noreferrer noopener" target="_blank">
+									<img class="platform-icon" alt="Spotify" aria-hidden="true" src="public/platforms/spotify.svg" />
+									<div class="text-base platform-username"> Noxy
+									</div>
+									<div href="" rel="noreferrer noopener" target="_blank">
+									<img alt=" " id="link" aria-hidden="true" src="public/icons/link.svg" class="connect" />
+									</div>
+									</a>
+								    </div>
+								<div class="column">
+									<a class="platform" href="#" rel="noreferrer noopener" target="_blank">
+									<img class="platform-icon" alt=" " aria-hidden="true" src="public/platforms/riotgames.svg" />
+									<div class="text-base platform-username"> N0xy#0000
+									</div>
+									<div class="">
+									<img alt=" " id="link" aria-hidden="true" src="public/icons/link.svg" class="connect" />
+									</div>
+									</a>
+
+									<a class="platform" href="https://www.instagram.com/n0xywqe" rel="noreferrer noopener" target="_blank">
+									<img class="platform-icon" alt=" " aria-hidden="true" src="public/platforms/insta.png" />
+									<div class="text-base platform-username"> n0xywqe
+									</div>
+									<div>
+									<img alt=" " id="link" aria-hidden="true" src="public/icons/link.svg" class="connect" />
+									</div>
+									</a>
+								    </div>
+
+							    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script async src="scripts/script.js"></script>
+	<script defer src="scripts/sub.js"></script>
+</body>
+</html>
